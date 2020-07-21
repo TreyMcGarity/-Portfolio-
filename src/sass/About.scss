@@ -1,0 +1,15 @@
+.about {
+    display: flex;
+    height: 700px;
+    padding-top: 30px;
+    background-color: black;
+
+    p {
+        color: white;
+    }
+
+    .about-pic {
+        height: 200px;
+        width: 200px;
+    }
+}

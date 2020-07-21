@@ -1,0 +1,33 @@
+.home {
+    display: flex;
+    height: 750px;
+    width: 100%;
+    background-image: url(../utils/images/white_abstract_bg.jpg);
+    background-size: cover;
+
+    h1{
+        width: 80%;
+        font-size: 150px;
+    }
+
+    .name{
+        display: flex;
+        justify-content: center;
+        // margin: 25px;
+        transition: ease-in 1s;
+        color: rgb(53, 133, 133);
+
+        // background-image: url(../utils/images/blue_space.jpg);
+        // background-size: cover;
+        // background-clip: text;
+        // color: transparent;
+    }
+
+    .name:hover {
+        color: rgb(136, 58, 180);
+        // background-image: url(../utils/images/blue_space.jpg);
+        // background-clip: text;
+        // background-position: center;
+        // color: transparent;
+    }
+}
