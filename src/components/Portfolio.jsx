@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navigation from "../components/Navigation.jsx";
 import Home from '../components/Home.jsx';
 import About from './About.jsx';

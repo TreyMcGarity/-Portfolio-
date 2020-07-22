@@ -2,9 +2,16 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 80%;
-    padding-top: 70px;
+    height: 700px;
+    padding-left: 100px;
+    width: 92%;
     margin: auto;
+    background-color: rgb(245, 245, 245);
+
+    img {
+        width: 150px;
+        height: 300px;
+    }
 
     .project {
         width: 300px;
