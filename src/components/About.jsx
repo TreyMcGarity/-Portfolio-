@@ -5,7 +5,7 @@ import '../sass/About.scss';
 const About = () => {
   return (
     <div className="about" id="about">
-      <p>About</p>
+      <h1>About</h1>
       <img className="about-pic" src={Picture} alt="about-pic" />
     </div>
   );

@@ -1,20 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Erica+One&display=swap');
+
 .home {
     display: flex;
-    height: 750px;
-    width: 100%;
-    background-image: url(../utils/images/simple_dark_bg.jpg);
+    justify-content: center;
+    background-color: white;
     background-size: cover;
 
     h1{
-        width: 80%;
-        font-size: 150px;
+        font-family: 'Erica One', cursive;
+        font-size: 200px;
+        font-weight: 100;
+        background-image: url("../utils/images/simple_dark_bg.jpg");
+        background-clip: text;
+        color: transparent;
     }
 
     .name{
-        height: 300px;
-        width: 800px;
-        margin: 100px 250px;
-        // padding: 50px;
         transition: ease-in 1s;
         color: rgb(53, 133, 133);
     }

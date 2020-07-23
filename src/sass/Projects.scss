@@ -1,12 +1,9 @@
 .projects {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     height: 700px;
-    padding-left: 100px;
-    width: 92%;
     margin: auto;
-    background-color: rgb(245, 245, 245);
+    padding-left: 100px;
 
     img {
         width: 150px;
@@ -16,6 +13,18 @@
     .project {
         width: 300px;
         height: 300px;
-        margin: 10px;
+        margin: 0 50px;
+    }
+
+    .coach-me {
+        display: flex;
+        flex-wrap: wrap;
+        width: 60%;
+    }
+
+    .fake-project {
+        display: flex;
+        flex-wrap: wrap;
+        width: 60%;
     }
 }

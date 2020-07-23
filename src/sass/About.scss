@@ -1,12 +1,7 @@
 .about {
     display: flex;
-    height: 700px;
+    flex-direction: column;
     padding: 30px 150px;
-    background-color: black;
-
-    p {
-        color: white;
-    }
 
     .about-pic {
         height: 200px;

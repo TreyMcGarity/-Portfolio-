@@ -9,13 +9,13 @@ import '../sass/Portfolio.scss';
 const Portfolio = () => {
   return (
     <div className="portfolio">
-          <Navigation />
-          <div className="content">
-            <Home />
-            <About />
-            <Projects />
-          </div>
-          <Footer />
+      <Navigation />
+        <div className="content">
+          <Home />
+          <About />
+          <Projects />
+        </div>
+      {/* <Footer /> */}
     </div>
   );
 }

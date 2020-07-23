@@ -9,14 +9,18 @@ const Projects = () => {
   const [current, setCurrent] = useState(true)
   return (
     <div className="projects" id="projects">
-      <img src={arrowLeft} alt="left arrow" />
+      <img onClick={() => setCurrent(!current)}
+        src={arrowLeft} alt="left arrow" 
+      />
       {current 
       ?
         <CoachMe />
       :
         <FakeProject />
       }
-      <img src={arrowRight} alt="right arrow" />
+      <img onClick={() => setCurrent(!current)}
+        src={arrowRight} alt="right arrow" 
+      />
     </div>
   );
 }
