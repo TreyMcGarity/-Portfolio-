@@ -6,7 +6,8 @@ const FakeProject = () => {
     <div className="fake-project">
     <img className="project"src={WDS} alt="watchdogs symbol"/>
     <img className="project"src={WDS} alt="watchdogs symbol"/>
-    <img className="project"src={WDS} alt="watchdogs symbol"/>
+    <img className="project "src={WDS} alt="watchdogs symbol"/>
+    <img className="project "src={WDS} alt="watchdogs symbol"/>
     </div>
   );
 }

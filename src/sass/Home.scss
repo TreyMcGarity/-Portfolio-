@@ -1,26 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Erica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
 
 .home {
     display: flex;
     justify-content: center;
-    background-color: white;
-    background-size: cover;
-
-    h1{
-        font-family: 'Erica One', cursive;
-        font-size: 200px;
-        font-weight: 100;
-        background-image: url("../utils/images/simple_dark_bg.jpg");
-        background-clip: text;
-        color: transparent;
+    flex-direction: row-reverse;
+    border-bottom: 2px solid black;
+    
+    .pic {
+        margin: 50px;
+        height: 400px;
+        width: 400px;
+        border: 3px solid black;
     }
 
-    .name{
-        transition: ease-in 1s;
-        color: rgb(53, 133, 133);
-    }
+    .content {
+        margin: 50px; 
 
-    .name:hover {
-        color: rgb(136, 58, 180);
+        .name{
+            font-family: 'Erica One', cursive;
+            font-size: 100px;
+            font-weight: 100;
+            transition: ease-in 2s;
+            color: rgb(40, 155, 155);
+        }
+
+        .name:hover {
+            color: rgb(104, 50, 101);
+        }
+
+        .info {
+            padding-left: 150px;
+            font-family: 'DM Sans', sans-serif;
+            background-color: lightblue;
+        }
     }
 }

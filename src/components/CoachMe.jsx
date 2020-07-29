@@ -8,7 +8,7 @@ const CoachMe = () => {
         <div className="coach-me">
             <img className="project" src={clientLogin} alt="client login"/>
             <img className="project" src={coachLogin} alt="coach login"/>
-            <img className="project" src={coachDashboard} alt="coach dashboard"/>
+            <img className="project large" src={coachDashboard} alt="coach dashboard"/>
         </div>
     )
 }

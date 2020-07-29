@@ -1,4 +1,19 @@
-.footer {
+.social-links {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-}
+    background-color: black;
+    border-top: 2px solid black;
+
+    .link {
+        margin: 25px 50px;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        border: 2px solid rgb(255, 255, 255);
+    }
+
+    .linkedin {
+        border-radius: 35%;
+    }
+}   
