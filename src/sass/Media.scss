@@ -1,12 +1,16 @@
 .social-links {
+    position: fixed;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    margin-top: 100px;
     background-color: black;
-    border-top: 2px solid black;
+    border: 2px solid dimgrey;
+    border-left: none;
+    border-radius: 0 20px 20px 0;
 
     .link {
-        margin: 25px 50px;
+        margin: 20px 30px;
         height: 60px;
         width: 60px;
         border-radius: 50%;

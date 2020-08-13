@@ -2,9 +2,9 @@ import React from 'react';
 import Github from '../utils/images/github-logo.png';
 import LinkedIn from '../utils/images/linkedin-logo.png';
 import Facebook from '../utils/images/facebook-logo.png';
-import '../sass/Footer.scss';
+import '../sass/Media.scss';
 
-const Footer = () => {
+const Media = () => {
   return (
     <div className="social-links">
                 <a href="https://github.com/TreyMcGarity">
@@ -20,4 +20,4 @@ const Footer = () => {
   );
 }
 
-export default Footer;
+export default Media;

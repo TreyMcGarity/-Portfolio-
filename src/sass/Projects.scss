@@ -8,10 +8,18 @@
     }
 
     .project {
-        width: 450px;
+        width: 400px;
         height: 400px;
         margin: 50px;
         border: 1px solid black;
+    }
+
+    .small {
+        width: 300px;
+    }
+
+    .mid {
+        width: 600px;
     }
 
     .large {
@@ -25,7 +33,7 @@
         width: 80%;
     }
 
-    .fake-project {
+    .save-the-animals {
         display: flex;
         flex-wrap: wrap;
         width: 80%;
