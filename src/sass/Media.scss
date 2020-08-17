@@ -1,10 +1,38 @@
 .social-links {
+    // width: 20px;
+    // height: 350px;
     position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 100px;
     background-color: black;
+    border: 2px solid dimgrey;
+    border-left: none;
+    border-radius: 0 20px 20px 0;
+
+    .link {
+        // display: none;
+        margin: 20px 30px;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        border: 2px solid rgb(255, 255, 255);
+    }
+
+    .linkedin {
+        border-radius: 35%;
+    }
+} 
+
+.social-links:hover{
+    // width: 130px;
+    // height: 350px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
     border: 2px solid dimgrey;
     border-left: none;
     border-radius: 0 20px 20px 0;
@@ -20,4 +48,4 @@
     .linkedin {
         border-radius: 35%;
     }
-}   
+}

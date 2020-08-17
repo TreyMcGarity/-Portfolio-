@@ -9,12 +9,14 @@ const CoachMe = () => {
     const [show, setShow] = useState(false)
     return (
         <div className="coach-me">
-        {
-        show
+        { show
         ?
         <Module first={clientLogin} second={coachLogin} third={coachDashboard} />
         :
-        <Card show={show} setShow={setShow} />
+        <Card
+            name={"Coach Me"} 
+            repo={"https://github.com/TreyMcGarity/coach-me-fe"}
+            setShow={setShow} />
         }
         </div>
     );

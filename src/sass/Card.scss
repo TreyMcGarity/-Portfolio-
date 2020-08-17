@@ -1,0 +1,27 @@
+.card {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px;
+    color: white;
+    background-color: rgb(57, 75, 78);
+    // border-radius: 20% 50px;
+
+    p {
+        padding-bottom: 5%;
+    }
+
+    .card-content {
+        a {
+            margin: 0 20px;
+            padding: 2%;
+            text-decoration: none;
+            color: olive;
+            background-color: palegoldenrod;
+            border-radius: 50px;
+        }
+    }
+}

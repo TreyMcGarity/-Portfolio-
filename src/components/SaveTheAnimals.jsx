@@ -6,16 +6,11 @@ import HomeBottom from '../utils/images/screenShots/save-the-animals-home-bottom
 import AboutMember from '../utils/images/screenShots/save-the-animals-about-member.png';
 
 const SaveTheAnimals = () => {
-  const [show, setShow] = useState(false)
   return (
     <div className="save-the-animals">
-    {
-      show
-      ?
-      <Module first={HomeTop} second={HomeBottom} third={AboutMember} />
-      :
-      <Card show={show} setShow={setShow} />
-    }
+      <img className="project" src={HomeTop} alt="screenshot"/>
+      <img className="project" src={HomeBottom} alt="screenshot"/>
+      <img className="project" src={AboutMember} alt="screenshot"/>
     </div>
   );
 }
