@@ -14,16 +14,6 @@ const Projects = () => {
       "hosted": "#",
       "repo": "https://github.com/TreyMcGarity/coach-me-fe"
     },
-    {
-      "title": "Bubbles",
-      "hosted": "#",
-      "repo": "https://github.com/TreyMcGarity/coach-me-fe"
-    },
-    {
-      "title": "Smurf Village",
-      "hosted": "#",
-      "repo": "https://github.com/TreyMcGarity/coach-me-fe"
-    }
   ]
   return (
     <div>

@@ -6,7 +6,7 @@ import '../sass/Media.scss';
 
 const Media = () => {
   return (
-    <div className="social-links">
+    <div className="social-links hover">
                 <a href="https://github.com/TreyMcGarity">
                     <img className="link github fade" src={Github} alt="github" />
                 </a>
