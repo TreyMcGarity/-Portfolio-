@@ -1,5 +1,21 @@
 .header {
     display: flex;
     justify-content: center;
-    background-color: brown;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+
+    .tabs {
+        display: flex;
+        margin: 50px 0;
+
+        .tab {
+            margin: 0 20px;
+            color: grey;
+            text-decoration: none;
+        }
+
+        .tab:hover{
+            color: peru;
+        }
+    }
 }

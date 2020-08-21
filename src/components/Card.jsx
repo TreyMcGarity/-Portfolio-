@@ -7,7 +7,7 @@ const Card = props => {
         // <div onClick={props.setShow(true)}>
         <div className="card">
             <p>{props.title}</p>
-            <div className="card-content">
+            <div className="card-content hover">
                 <a href={props.hosted}>Website</a>
                 <a href={props.repo}>Repository</a>
             </div>

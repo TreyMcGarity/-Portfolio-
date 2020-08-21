@@ -13,7 +13,7 @@ const Portfolio = () => {
       <Media />
         <div className="content">
             <Route exact path="/" component={Projects}/>
-            <Route exact path="about" component={About}/>
+            <Route exact path="/about" component={About}/>
         </div>
     </div>
   );

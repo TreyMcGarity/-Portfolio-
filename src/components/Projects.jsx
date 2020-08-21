@@ -16,8 +16,10 @@ const Projects = () => {
     },
   ]
   return (
-    <div>
-        <h1>Projects</h1>
+    <div className="home">
+        <div className="text">
+          <h2>Some of my Work!</h2>
+        </div>
       <div className="projects">
         {projects.map((project, index) => (
           <Card key={index}

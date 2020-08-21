@@ -8,7 +8,6 @@
     margin: 50px;
     color: white;
     background-color: rgb(57, 75, 78);
-    // border-radius: 20% 50px;
 
     p {
         padding-bottom: 5%;
@@ -22,6 +21,11 @@
             color: olive;
             background-color: palegoldenrod;
             border-radius: 50px;
+        }
+
+        a:hover {
+            color: palegoldenrod;
+            background-color: olive;
         }
     }
 }
