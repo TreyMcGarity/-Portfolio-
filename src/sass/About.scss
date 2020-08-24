@@ -1,12 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap');
+
 .about {
     display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
+    flex-direction: row;
     
-    .pic {
-        margin: 50px;
+    .left {
         height: 400px;
-        width: 400px;
-        border: 3px solid black;
+        margin-top: 2%;
+        margin-left: 100px;
+        padding: 5px;
+        text-align: right;
+
+        .pic {
+            margin: 0 0 40px 150px;
+            height: 200px;
+            width: 200px;
+            border: 3px solid black;
+        }
+    }
+
+    .right {
+        height: 400px;
+        margin: 2%;
+        padding: 50px;
+        font-family: 'Baloo Tamma 2', cursive;
+        border: 1px solid black;
     }
 }
