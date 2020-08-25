@@ -8,42 +8,4 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
-    img {
-        margin: 350px 25px;
-        width: 150px;
-        height: 300px;
-    }
-
-    .project {
-        width: 400px;
-        height: 400px;
-        margin: 50px;
-        border: 1px solid black;
-    }
-
-    .small {
-        width: 300px;
-    }
-
-    .mid {
-        width: 600px;
-    }
-
-    .large {
-        width: 900px;
-        margin: 50px 100px;
-    }
-
-    .coach-me {
-        display: flex;
-        flex-wrap: wrap;
-        width: 80%;
-    }
-
-    .save-the-animals {
-        display: flex;
-        flex-wrap: wrap;
-        width: 80%;
-    }
 }

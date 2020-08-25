@@ -1,17 +1,13 @@
 import React from 'react';
-import arrowLeft from '../utils/images/left-arrow.png';
-import arrowRight from '../utils/images/right-arrow.png';
+import '../sass/Module.scss';
 
 const Module = props => {
     return (
-    <div className="projects" id="projects">
-        {/* <button onClick={props.setShow(!props.show)}>Close</button> */}
-        {/* <img onClick={() => setCurrent(!current)} src={arrowLeft} alt="left arrow"/> */}
-        <img className="project" src={props.first} alt="first"/>
-        <img className="project" src={props.second} alt="second"/>
-        <img className="project" src={props.third} alt="third"/>
-        {/* <img onClick={() => setCurrent(!current)} src={arrowRight} alt="right arrow"/> */}
-    </div>
+        <div className="module">
+            <img className="image" src={props.first} alt="first"/>
+            <img className="image" src={props.second} alt="second"/>
+            <img className="image" src={props.third} alt="third"/>
+        </div>
     )
 }
 

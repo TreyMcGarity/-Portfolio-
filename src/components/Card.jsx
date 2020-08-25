@@ -1,16 +1,24 @@
 import React from 'react';
+import Module from './Module.jsx';
 import '../sass/Card.scss';
 
 const Card = props => {
-    console.log(props)
     return (
-        // <div onClick={props.setShow(true)}>
-        <div className="card">
-            <p>{props.title}</p>
-            <div className="card-content hover">
-                <a href={props.hosted}>Website</a>
-                <a href={props.repo}>Repository</a>
+        <div>
+            {props.show 
+            ?
+            <div onClick={() => {props.setShow(false)}}>
+                <Module 
+                    first={props.first}
+                    second={props.second}
+                    third={props.third}
+                />
             </div>
+            :
+            <div className="card" onClick={() => {props.setShow(true)}}>
+                <p>{props.title}</p>
+            </div>
+            }
         </div>
     )
 }
