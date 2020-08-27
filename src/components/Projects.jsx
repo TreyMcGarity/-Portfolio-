@@ -1,5 +1,11 @@
 import React, { useState } from 'react';
 import Card from './Card.jsx';
+import HomeTop from '../utils/images/screenShots/save-the-animals-home-top.png';
+import HomeBottom from '../utils/images/screenShots/save-the-animals-home-bottom.png';
+import AboutMember from '../utils/images/screenShots/save-the-animals-about-member.png';
+import clientLogin from '../utils/images/screenShots/client-login.png';
+import coachLogin from '../utils/images/screenShots/coach-login.png';
+import coachDashboard from '../utils/images/screenShots/coach-dashboard.png';
 import '../sass/Projects.scss';
 
 const Projects = () => {
@@ -8,17 +14,17 @@ const Projects = () => {
       "title": "Save The Animals",
       "hosted": "https://lets-save-the-animals.netlify.app/",
       "repo": "https://github.com/TreyMcGarity/mcgarity-marketing-page",
-      "first": "../utils/images/screenShots/save-the-animals-home-top.png",
-      "second": "../utils/images/screenShots/save-the-animals-home-bottom.png",
-      "third": "../utils/images/screenShots/save-the-animals-about-member.png"
+      "first": HomeTop,
+      "second": HomeBottom,
+      "third": AboutMember
     },
     {
       "title": "Coach Me",
       "hosted": "#",
       "repo": "https://github.com/TreyMcGarity/coach-me-fe",
-      "first": "../utils/images/screenShots/client-login.png",
-      "second": "../utils/images/screenShots/coach-login.png",
-      "third": "../utils/images/screenShots/coach-dashboard.png"
+      "first": clientLogin,
+      "second": coachLogin,
+      "third": coachDashboard
     },
     {
       "title": "Smurf Village",
@@ -45,8 +51,8 @@ const Projects = () => {
         <h2>Some of my Work!</h2>
       </div>
       <div className="projects">
-        {projects.map((project, index) => (
-          <Card key={index}
+        {projects.map((project, i) => (
+          <Card key={i}
             title={project.title}
             show={show}
             setShow={setShow}

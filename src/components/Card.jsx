@@ -8,7 +8,9 @@ const Card = props => {
             {props.show 
             ?
             <div onClick={() => {props.setShow(false)}}>
-                <Module 
+                <Module
+                    project={props.key}
+                    title={props.title}
                     first={props.first}
                     second={props.second}
                     third={props.third}
