@@ -5,12 +5,12 @@ import '../sass/Card.scss';
 const Card = props => {
     return (
         <div>
-            {props.show 
+            {
+            props.show 
             ?
             <div onClick={() => {props.setShow(false)}}>
                 <Module
-                    project={props.key}
-                    title={props.title}
+                    id={props.id}
                     first={props.first}
                     second={props.second}
                     third={props.third}

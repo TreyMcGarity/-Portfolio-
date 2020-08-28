@@ -22,9 +22,9 @@ const Projects = () => {
       "title": "Coach Me",
       "hosted": "#",
       "repo": "https://github.com/TreyMcGarity/coach-me-fe",
-      "first": clientLogin,
-      "second": coachLogin,
-      "third": coachDashboard
+      "first": "#",  //clientLogin
+      "second": "#", //coachLogin
+      "third": "#"//coachDashboard
     },
     {
       "title": "Smurf Village",
@@ -51,8 +51,9 @@ const Projects = () => {
         <h2>Some of my Work!</h2>
       </div>
       <div className="projects">
-        {projects.map((project, i) => (
-          <Card key={i}
+        {projects.map((project, index) => (
+          <Card key={index}
+            id={index}
             title={project.title}
             show={show}
             setShow={setShow}
