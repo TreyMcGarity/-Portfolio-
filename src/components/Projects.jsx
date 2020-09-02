@@ -22,9 +22,9 @@ const Projects = () => {
       "title": "Coach Me",
       "hosted": "#",
       "repo": "https://github.com/TreyMcGarity/coach-me-fe",
-      "first": "#",  //clientLogin
-      "second": "#", //coachLogin
-      "third": "#"//coachDashboard
+      "first": "",  //clientLogin
+      "second": "", //coachLogin
+      "third": ""//coachDashboard
     },
     {
       "title": "Smurf Village",
