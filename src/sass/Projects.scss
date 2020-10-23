@@ -1,11 +1,17 @@
-.text {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
+.home {
+    background-image: url("../utils/images/notebook.jpg");
+    background-size: stretch;
 
-.projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    .text {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
 }

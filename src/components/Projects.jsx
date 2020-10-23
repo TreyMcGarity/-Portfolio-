@@ -1,8 +1,8 @@
 import React from 'react';
-// import SaveTheAnimals from './SaveTheAnimals';
-// import CoachMe from './CoachMe';
-// import SmurfVillage from './SmurfVillage';
-// import Bubbles from './Bubbles';
+import SaveTheAnimals from './SaveTheAnimals';
+import CoachMe from './CoachMe';
+import SmurfVillage from './SmurfVillage';
+import Bubbles from './Bubbles';
 import '../sass/Projects.scss';
 
 const Projects = () => {
@@ -12,10 +12,10 @@ const Projects = () => {
         <h2>Some of my Work!</h2>
       </div>
       <div className="projects">
-        {/* <SaveTheAnimals />
+        <SaveTheAnimals />
         <CoachMe />
         <SmurfVillage />
-        <Bubbles /> */}
+        <Bubbles />
       </div>
     </div>
   );
