@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Card from './Card';
 import Module from './Module';
 
-const Bubbles = props => {
+const Bubbles = () => {
     const [show, setShow] = useState(false)
 
     return (

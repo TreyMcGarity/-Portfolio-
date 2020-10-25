@@ -4,7 +4,8 @@ import Module from './Module';
 import clientLogin from '../utils/images/screenShots/client-login.png';
 import coachLogin from '../utils/images/screenShots/coach-login.png';
 import coachDashboard from '../utils/images/screenShots/coach-dashboard.png';
-const CoachMe = props => {
+
+const CoachMe = () => {
     const [show, setShow] = useState(false)
 
     return (

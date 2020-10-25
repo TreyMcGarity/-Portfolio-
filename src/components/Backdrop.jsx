@@ -4,7 +4,7 @@ import '../sass/Backdrop.scss';
 const Backdrop = (props) => {
     return (
         <div 
-        className={props.show ? 'backdrop':'backdrop-closed'}
+        className={props.status ? 'backdrop':'backdrop-closed'}
         onClick={(e)=> {
             e.stopPropagation();
             props.set(false)

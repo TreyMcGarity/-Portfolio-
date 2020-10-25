@@ -3,7 +3,7 @@ import Card from './Card';
 import Module from './Module';
 import Backdrop from './Backdrop';
 
-const SmurfVillage = props => {
+const SmurfVillage = () => {
     const [show, setShow] = useState(false)
 
     return (

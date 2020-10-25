@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import Card from './Card';
 import Module from './Module';
+import Backdrop from './Backdrop';
 import HomeTop from '../utils/images/screenShots/save-the-animals-home-top.png';
 import HomeBottom from '../utils/images/screenShots/save-the-animals-home-bottom.png';
 import AboutMember from '../utils/images/screenShots/save-the-animals-about-member.png';
-import About from './About';
 
-const SaveTheAnimal = props => {
+const SaveTheAnimal = () => {
     const [show, setShow] = useState(false)
 
     return (
@@ -14,12 +14,15 @@ const SaveTheAnimal = props => {
             {
             show 
             ?
-                <Module
-                    first={HomeTop}
-                    second={HomeBottom}
-                    third={AboutMember}
-                    setShow={setShow}
-                />
+                <div>
+                    <Module
+                        first={HomeTop}
+                        second={HomeBottom}
+                        third={AboutMember}
+                        setShow={setShow}
+                    />
+                    <Backdrop status={show} set={setShow}/>
+                </div>
             :
                 <Card 
                     title={"Save The Animals"}
