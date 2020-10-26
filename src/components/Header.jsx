@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div className="header">
             <div className="tabs">
-                <Link className="tab hover" to="/">Home Page</Link>
+                <Link className="tab hover" to="/">My Projects</Link>
                 <Link className="tab hover" to="/about">About Myself</Link>
             </div>
             <h1>Trey McGarity</h1>
