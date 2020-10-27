@@ -1,16 +1,27 @@
-Portfolio built with ReactJS and Sass.
+Portfolio built with ReactJS and styled with SASS.
 
-
-Problems:
-[x] Images aren't displaying.
-[x] Project Cards map through all projects instead of selected.
-[ ] All modules are not centered in screen
-
-Current Work:
+Goals To Accomplish:
 [x] Scheme Layout Designed
+
 [x] Content Establish
-[ ] Setting up Project Page
-[ ] Setting up About Page
+    [x] Setting up Header
+    [x] Setting up Media Section
+    [x] Setting up Project Page
+        [x] Cards that onClick show Project Module
+        [x] Module Have Carosuel functionallity with pics and info
+    [x] Setting up About Page
+        [x] Make a Structure for Page
+        [x] Basic Info / Background
+
 [ ] Enhance Style
+    [ ] Header
+    [ ] Social SlideIn
+    [ ] Project Page
+    [ ] About Page
+
 [ ] Create Animations
-[ ] Host it
+    [ ] SlideIn hover
+    [ ] Card Flip
+    [ ] Organic Carosuel
+
+[x] Host it
