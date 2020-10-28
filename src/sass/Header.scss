@@ -2,16 +2,14 @@
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    // color: whitesmoke;
-    // background-color: black;
-    border-bottom: 2px solid dimgrey;
+    border-bottom: .2rem solid dimgrey;
 
     .tabs {
         display: flex;
-        margin: 50px 0;
+        margin: 3rem 0;
 
         .tab {
-            margin: 0 20px;
+            margin: 0 2rem;
             color: grey;
             text-decoration: none;
         }
