@@ -27,21 +27,47 @@ const Module = props => {
 
     const handlePanel = value => {
         switch (value) {
-          case 1: return <img className="image" src={props.first} alt="first"/>
-          case 2: return <img className="image" src={props.second} alt="second"/>
-          case 3: return <img className="image" src={props.third} alt="third"/>
-          default: return <img className="image" src={props.first} alt="first"/>
+          case 1: return (
+            <div className="content">
+                <img className="image" src={props.slide.first} alt="first"/>
+                <p>{props.description.first}</p>
+            </div>
+          )
+          case 2: return (
+            <div className="content">
+                  <img className="image" src={props.slide.second} alt="second"/>
+                  <p>{props.description.second}</p>
+              </div>
+          )
+          case 3: return (
+            <div className="content">
+                  <img className="image" src={props.slide.third} alt="third"/>
+                  <p>{props.description.third}</p>
+              </div>
+          )
+          default: return (
+            <div className="content">
+                <img className="image" src={props.slide.first} alt="first"/>
+                <p>{props.description.first}</p>
+            </div>
+          )
         }
     }
 
     return (
         <div className="module">
-            <button onClick={() => {props.setShow(false)}}>Close</button>
+            <div 
+                className="close-btn"
+                onClick={() => {props.setShow(false)}}
+            >
+                Close
+            </div>
             <div className="carousel">
                 <img className="arrow" src={Left} alt="left-arrow" onClick={() => handleSlides("dec")}/>
                 {handlePanel(slide)}   
                 <img className="arrow" src={Right} alt="right-arrow" onClick={() => handleSlides("inc")}/>
             </div>
+            <a href={props.link}>Github</a>
         </div>
     )
 }

@@ -5,6 +5,17 @@ import Backdrop from './Backdrop';
 
 const SmurfVillage = () => {
     const [show, setShow] = useState(false)
+    const slide = {
+        first: "",
+        second: "",
+        third: ""
+    }
+    const description = {
+        first: "first",
+        second: "second",
+        third: "third"
+    }
+    const link = ""
 
     return (
         <div>
@@ -13,9 +24,9 @@ const SmurfVillage = () => {
             ?
                 <div>
                     <Module
-                        first={""}
-                        second={""}
-                        third={""}
+                        slide={slide}
+                        description={description}
+                        link={link}
                         setShow={setShow}
                     />
                     <Backdrop status={show} set={setShow}/>

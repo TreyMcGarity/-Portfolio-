@@ -8,6 +8,17 @@ import coachDashboard from '../utils/images/screenShots/coach-dashboard.png';
 
 const CoachMe = () => {
     const [show, setShow] = useState(false)
+    const slide = {
+        first: clientLogin,
+        second: coachLogin,
+        third: coachDashboard
+    }
+    const description = {
+        first: "Login Page for the Client User Type.",
+        second: "Login Page for the Coach User Type.",
+        third: "Main Dashboard Page for Coach User Type."
+    }
+    const link = ""
 
     return (
         <div>
@@ -16,9 +27,9 @@ const CoachMe = () => {
             ?
                 <div>
                 <Module
-                    first={clientLogin}
-                    second={coachLogin}
-                    third={coachDashboard}
+                    slide={slide}
+                    description={description}
+                    link={link}
                     setShow={setShow}
                 />
                 <Backdrop status={show} set={setShow}/>

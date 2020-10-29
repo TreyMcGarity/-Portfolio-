@@ -9,14 +9,27 @@
     position: fixed;
     background-color: rgb(245, 245, 245);
 
+    .close-btn {
+        margin: 1rem;
+        padding: .5rem;
+        width: 5rem;
+        height: 2rem;
+        border: 1px solid black;
+    }
+
     .carousel {
         display: flex;
         justify-content: space-between;
 
         .arrow {
-            margin: 7em 1em;
+            margin: 4em 1em;
             width: 2.5em;
             height: 5em;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: row;
         }
     }
 

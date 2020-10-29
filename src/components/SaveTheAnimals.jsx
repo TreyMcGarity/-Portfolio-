@@ -8,6 +8,17 @@ import AboutMember from '../utils/images/screenShots/save-the-animals-about-memb
 
 const SaveTheAnimal = () => {
     const [show, setShow] = useState(false)
+    const slide = {
+        first: HomeTop,
+        second: HomeBottom,
+        third: AboutMember
+    }
+    const description = {
+        first: "Mobile Home Top of the Page.",
+        second: "Desktop Home Bottom of the Page.",
+        third: "About Members Page screenshot."
+    }
+    const link = "https://github.com/TreyMcGarity/mcgarity-marketing-page/tree/trey-mcgarity"
 
     return (
         <div>
@@ -16,9 +27,9 @@ const SaveTheAnimal = () => {
             ?
                 <div>
                     <Module
-                        first={HomeTop}
-                        second={HomeBottom}
-                        third={AboutMember}
+                        slide={slide}
+                        description={description}
+                        link={link}
                         setShow={setShow}
                     />
                     <Backdrop status={show} set={setShow}/>
