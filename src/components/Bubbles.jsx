@@ -5,6 +5,7 @@ import Backdrop from './Backdrop';
 
 const Bubbles = () => {
     const [show, setShow] = useState(false)
+    const title = "React Bubbles"
     const slide = {
         first: "",
         second: "",
@@ -15,7 +16,7 @@ const Bubbles = () => {
         second: "second",
         third: "third"
     }
-    const link = ""
+    const link = "https://github.com/TreyMcGarity/react-bubbles"
 
     return (
         <div>
@@ -24,16 +25,20 @@ const Bubbles = () => {
             ?
                 <div>
                     <Module
+                        title={title}
+                        setShow={setShow}
                         slide={slide}
                         description={description}
                         link={link}
-                        setShow={setShow}
                     />
-                    <Backdrop status={show} set={setShow}/>
+                    <Backdrop 
+                        status={show} 
+                        set={setShow}
+                    />
                 </div>
             :
                 <Card 
-                    title={"React Bubbles"}
+                    title={title}
                     setShow={setShow}
                 />
             }

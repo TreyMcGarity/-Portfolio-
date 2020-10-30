@@ -34,7 +34,10 @@ const SaveTheAnimal = () => {
                         description={description}
                         link={link}
                     />
-                    <Backdrop status={show} set={setShow}/>
+                    <Backdrop 
+                        status={show} 
+                        set={setShow}
+                    />
                 </div>
             :
                 <Card 

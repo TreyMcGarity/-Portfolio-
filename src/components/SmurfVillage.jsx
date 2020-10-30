@@ -5,6 +5,7 @@ import Backdrop from './Backdrop';
 
 const SmurfVillage = () => {
     const [show, setShow] = useState(false)
+    const title = "Smurf Village"
     const slide = {
         first: "",
         second: "",
@@ -15,7 +16,7 @@ const SmurfVillage = () => {
         second: "second",
         third: "third"
     }
-    const link = ""
+    const link = "https://github.com/TreyMcGarity/Sprint-Challenge-State-Management-Smurfs"
 
     return (
         <div>
@@ -24,16 +25,20 @@ const SmurfVillage = () => {
             ?
                 <div>
                     <Module
+                        title={title}
+                        setShow={setShow}
                         slide={slide}
                         description={description}
                         link={link}
-                        setShow={setShow}
                     />
-                    <Backdrop status={show} set={setShow}/>
+                    <Backdrop 
+                        status={show} 
+                        set={setShow}
+                    />
                 </div>
             :
                 <Card 
-                    title={"Smurf Village"}
+                    title={title}
                     setShow={setShow}
                 />
             }

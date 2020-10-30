@@ -8,6 +8,7 @@ import coachDashboard from '../utils/images/screenShots/coach-dashboard.png';
 
 const CoachMe = () => {
     const [show, setShow] = useState(false)
+    const title = "Coach Me"
     const slide = {
         first: clientLogin,
         second: coachLogin,
@@ -27,16 +28,20 @@ const CoachMe = () => {
             ?
                 <div>
                 <Module
+                    title={title}
+                    setShow={setShow}
                     slide={slide}
                     description={description}
                     link={link}
-                    setShow={setShow}
                 />
-                <Backdrop status={show} set={setShow}/>
+                <Backdrop 
+                    status={show} 
+                    set={setShow}
+                />
                 </div>
             :
                 <Card 
-                    title={"Coach Me"}
+                    title={title}
                     setShow={setShow}
                 />
             }
