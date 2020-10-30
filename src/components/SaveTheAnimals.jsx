@@ -19,7 +19,8 @@ const SaveTheAnimal = () => {
         second: "Desktop Home Bottom of the Page.",
         third: "About Members Page screenshot."
     }
-    const link = "https://github.com/TreyMcGarity/mcgarity-marketing-page/tree/trey-mcgarity"
+    const deploy_link = ""
+    const github_link = "https://github.com/TreyMcGarity/mcgarity-marketing-page/tree/trey-mcgarity"
 
     return (
         <div>
@@ -32,7 +33,8 @@ const SaveTheAnimal = () => {
                         setShow={setShow}
                         slide={slide}
                         description={description}
-                        link={link}
+                        webpage={deploy_link}
+                        github={github_link}
                     />
                     <Backdrop 
                         status={show} 

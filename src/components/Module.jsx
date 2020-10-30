@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Github from '../utils/images/github-logo.png';
+import WebPage from '../utils/images/webpage_icon.jpg';
 import Left from '../utils/images/left-arrow.png';
 import Right from '../utils/images/right-arrow.png';
 import '../sass/Module.scss';
@@ -64,9 +65,14 @@ const Module = props => {
                     Close
                 </div>
                 <h4>{props.title}</h4>
-                <a href={props.link}>
-                    <img className="link" src={Github} alt="github" />
-                </a>
+                <div className="links">
+                    <a href={props.webpage}>
+                        <img className="webpage" src={WebPage} alt="webpage" />
+                    </a>
+                    <a href={props.github}>
+                        <img className="github" src={Github} alt="github" />
+                    </a>
+                </div>
             </div>
             <div className="carousel">
                 <img className="arrow" src={Left} alt="left-arrow" onClick={() => handleSlides("dec")}/>

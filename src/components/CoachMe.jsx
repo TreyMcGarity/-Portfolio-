@@ -19,7 +19,8 @@ const CoachMe = () => {
         second: "Login Page for the Coach User Type.",
         third: "Main Dashboard Page for Coach User Type."
     }
-    const link = "https://github.com/TreyMcGarity/coach-me-fe"
+    const deploy_link = ""
+    const github_link = "https://github.com/TreyMcGarity/coach-me-fe"
 
     return (
         <div>
@@ -32,7 +33,8 @@ const CoachMe = () => {
                     setShow={setShow}
                     slide={slide}
                     description={description}
-                    link={link}
+                    webpage={deploy_link}
+                    github={github_link}                
                 />
                 <Backdrop 
                     status={show} 

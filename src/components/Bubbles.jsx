@@ -16,7 +16,8 @@ const Bubbles = () => {
         second: "second",
         third: "third"
     }
-    const link = "https://github.com/TreyMcGarity/react-bubbles"
+    const deploy_link = "https://reacts-bubbles.vercel.app/"
+    const github_link = "https://github.com/TreyMcGarity/react-bubbles"
 
     return (
         <div>
@@ -29,7 +30,8 @@ const Bubbles = () => {
                         setShow={setShow}
                         slide={slide}
                         description={description}
-                        link={link}
+                        webpage={deploy_link}
+                        github={github_link}
                     />
                     <Backdrop 
                         status={show} 

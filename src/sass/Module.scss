@@ -29,10 +29,18 @@
             box-shadow: 1px 1px 5px #999;
         }
 
-        .link {
-            margin: 2rem 0;
-            height: 3rem;
-            width: 3rem;
+        .links {
+            .webpage {
+                margin: 2rem 0;
+                height: 3rem;
+                width: 3rem;
+            }
+
+            .github {
+                margin: 2rem 0;
+                height: 3rem;
+                width: 3rem;
+            }
         }
 
         link:hover{

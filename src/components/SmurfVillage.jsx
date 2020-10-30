@@ -16,7 +16,8 @@ const SmurfVillage = () => {
         second: "second",
         third: "third"
     }
-    const link = "https://github.com/TreyMcGarity/Sprint-Challenge-State-Management-Smurfs"
+    const deploy_link = ""
+    const github_link = "https://github.com/TreyMcGarity/Sprint-Challenge-State-Management-Smurfs"
 
     return (
         <div>
@@ -29,7 +30,8 @@ const SmurfVillage = () => {
                         setShow={setShow}
                         slide={slide}
                         description={description}
-                        link={link}
+                        webpage={deploy_link}
+                        github={github_link}
                     />
                     <Backdrop 
                         status={show} 
