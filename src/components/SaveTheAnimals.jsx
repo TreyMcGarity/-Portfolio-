@@ -8,6 +8,7 @@ import AboutMember from '../utils/images/screenShots/save-the-animals-about-memb
 
 const SaveTheAnimal = () => {
     const [show, setShow] = useState(false)
+    const title = "Save The Animals"
     const slide = {
         first: HomeTop,
         second: HomeBottom,
@@ -27,16 +28,17 @@ const SaveTheAnimal = () => {
             ?
                 <div>
                     <Module
+                        title={title}
+                        setShow={setShow}
                         slide={slide}
                         description={description}
                         link={link}
-                        setShow={setShow}
                     />
                     <Backdrop status={show} set={setShow}/>
                 </div>
             :
                 <Card 
-                    title={"Save The Animals"}
+                    title={title}
                     setShow={setShow}
                 />
             }

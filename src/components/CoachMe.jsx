@@ -18,7 +18,7 @@ const CoachMe = () => {
         second: "Login Page for the Coach User Type.",
         third: "Main Dashboard Page for Coach User Type."
     }
-    const link = ""
+    const link = "https://github.com/TreyMcGarity/coach-me-fe"
 
     return (
         <div>

@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Github from '../utils/images/github-logo.png';
 import Left from '../utils/images/left-arrow.png';
 import Right from '../utils/images/right-arrow.png';
 import '../sass/Module.scss';
@@ -56,18 +57,22 @@ const Module = props => {
 
     return (
         <div className="module">
-            <div 
-                className="close-btn"
-                onClick={() => {props.setShow(false)}}
-            >
-                Close
+            <div className="top">
+                <div className="close-btn"
+                    onClick={() => {props.setShow(false)}}
+                >
+                    Close
+                </div>
+                <h4>{props.title}</h4>
+                <a href={props.link}>
+                    <img className="link" src={Github} alt="github" />
+                </a>
             </div>
             <div className="carousel">
                 <img className="arrow" src={Left} alt="left-arrow" onClick={() => handleSlides("dec")}/>
                 {handlePanel(slide)}   
                 <img className="arrow" src={Right} alt="right-arrow" onClick={() => handleSlides("inc")}/>
             </div>
-            <a href={props.link}>Github</a>
         </div>
     )
 }
