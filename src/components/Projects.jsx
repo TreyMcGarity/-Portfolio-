@@ -3,7 +3,6 @@ import SaveTheAnimals from './SaveTheAnimals';
 import CoachMe from './CoachMe';
 import SmurfVillage from './SmurfVillage';
 import Bubbles from './Bubbles';
-import Card from './Card';
 import '../sass/Projects.scss';
 
 const Projects = () => {

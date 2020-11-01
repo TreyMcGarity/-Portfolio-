@@ -19,7 +19,7 @@ const CoachMe = () => {
         second: "Login Page for the Coach User Type.",
         third: "Main Dashboard Page for Coach User Type."
     }
-    const deploy_link = ""
+    const deploy_link = "" // need to rehost
     const github_link = "https://github.com/TreyMcGarity/coach-me-fe"
 
     return (

@@ -16,7 +16,7 @@ const SmurfVillage = () => {
         second: "second",
         third: "third"
     }
-    const deploy_link = ""
+    const deploy_link = "" // need to host
     const github_link = "https://github.com/TreyMcGarity/Sprint-Challenge-State-Management-Smurfs"
 
     return (

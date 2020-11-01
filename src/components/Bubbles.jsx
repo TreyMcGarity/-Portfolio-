@@ -16,6 +16,7 @@ const Bubbles = () => {
         second: "second",
         third: "third"
     }
+    // need to host server for access to bubble page!
     const deploy_link = "https://reacts-bubbles.vercel.app/"
     const github_link = "https://github.com/TreyMcGarity/react-bubbles"
 
