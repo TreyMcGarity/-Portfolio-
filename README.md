@@ -17,6 +17,9 @@ Goals To Accomplish:
     [ ] Header
     [ ] Social SlideIn
     [ ] Project Page
+        [ ] Cards
+        [x] Modules
+        [ ] Carosuela
     [ ] About Page
 
 [ ] Create Animations
