@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import Card from './Card';
-import Module from './Module';
-import Backdrop from './Backdrop';
+import Card from '../Card';
+import Module from '../Module';
+import Backdrop from '../Backdrop';
 
-const Bubbles = () => {
+const SmurfVillage = () => {
     const [show, setShow] = useState(false)
-    const title = "React Bubbles"
+    const title = "Smurf Village"
     const slide = {
         first: "",
         second: "",
@@ -16,9 +16,8 @@ const Bubbles = () => {
         second: "second",
         third: "third"
     }
-    // need to host server for access to bubble page!
-    const deploy_link = "https://reacts-bubbles.vercel.app/"
-    const github_link = "https://github.com/TreyMcGarity/react-bubbles"
+    const deploy_link = "" // need to host
+    const github_link = "https://github.com/TreyMcGarity/Sprint-Challenge-State-Management-Smurfs"
 
     return (
         <div>
@@ -48,4 +47,4 @@ const Bubbles = () => {
         </div>
     )
 }
-export default Bubbles;
+export default SmurfVillage;

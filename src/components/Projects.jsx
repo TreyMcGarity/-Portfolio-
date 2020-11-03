@@ -1,8 +1,8 @@
 import React from 'react';
-import SaveTheAnimals from './SaveTheAnimals';
-import CoachMe from './CoachMe';
-import SmurfVillage from './SmurfVillage';
-import Bubbles from './Bubbles';
+import SaveTheAnimals from './projects/SaveTheAnimals';
+import CoachMe from './projects/CoachMe';
+import SmurfVillage from './projects/SmurfVillage';
+import Bubbles from './projects/Bubbles';
 import '../sass/Projects.scss';
 
 const Projects = () => {

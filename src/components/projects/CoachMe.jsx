@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import Card from './Card';
-import Module from './Module';
-import Backdrop from './Backdrop';
-import clientLogin from '../utils/images/screenShots/client-login.png';
-import coachLogin from '../utils/images/screenShots/coach-login.png';
-import coachDashboard from '../utils/images/screenShots/coach-dashboard.png';
+import Card from '../Card';
+import Module from '../Module';
+import Backdrop from '../Backdrop';
+import clientLogin from '../../utils/images/screenShots/client-login.png';
+import coachLogin from '../../utils/images/screenShots/coach-login.png';
+import coachDashboard from '../../utils/images/screenShots/coach-dashboard.png';
 
 const CoachMe = () => {
     const [show, setShow] = useState(false)

@@ -1,26 +1,24 @@
 import React, { useState } from 'react';
-import Card from './Card';
-import Module from './Module';
-import Backdrop from './Backdrop';
-import HomeTop from '../utils/images/screenShots/save-the-animals-home-top.png';
-import HomeBottom from '../utils/images/screenShots/save-the-animals-home-bottom.png';
-import AboutMember from '../utils/images/screenShots/save-the-animals-about-member.png';
+import Card from '../Card';
+import Module from '../Module';
+import Backdrop from '../Backdrop';
 
-const SaveTheAnimal = () => {
+const Bubbles = () => {
     const [show, setShow] = useState(false)
-    const title = "Save The Animals"
+    const title = "React Bubbles"
     const slide = {
-        first: HomeTop,
-        second: HomeBottom,
-        third: AboutMember
+        first: "",
+        second: "",
+        third: ""
     }
     const description = {
-        first: "Mobile Home Top of the Page.",
-        second: "Desktop Home Bottom of the Page.",
-        third: "About Members Page screenshot."
+        first: "first",
+        second: "second",
+        third: "third"
     }
-    const deploy_link = "" // need to host
-    const github_link = "https://github.com/TreyMcGarity/mcgarity-marketing-page/tree/trey-mcgarity"
+    // need to host server for access to bubble page!
+    const deploy_link = "https://reacts-bubbles.vercel.app/"
+    const github_link = "https://github.com/TreyMcGarity/react-bubbles"
 
     return (
         <div>
@@ -50,4 +48,4 @@ const SaveTheAnimal = () => {
         </div>
     )
 }
-export default SaveTheAnimal;
+export default Bubbles;
