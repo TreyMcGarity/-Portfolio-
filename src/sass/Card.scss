@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Sheppards&display=swap');
 /*
 Want words to be larger or cards to have different style that makes
 presentation neater perhaps.
 Shape: Triangles?? (idk lmao)
 */
 .card {
-    width: 30rem;
-    height: 15rem;
+    width: 25rem;
+    height: 10rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -14,4 +15,9 @@ Shape: Triangles?? (idk lmao)
     background-color: peru;
     border: 1px solid black;
     border-radius: .5rem;
+
+    p {
+        font-family: 'Mrs Sheppards', cursive;
+        font-size: xx-large;
+    }
 }
