@@ -14,12 +14,12 @@ Goals To Accomplish:
         [x] Basic Info / Background
 
 [ ] Enhance Style
-    [ ] Header
+    [x] Header
     [ ] Social SlideIn
     [ ] Project Page
-        [ ] Cards
+        [x] Cards
         [x] Modules
-        [ ] Carosuela
+        [ ] Carosuels
     [ ] About Page
 
 [ ] Create Animations

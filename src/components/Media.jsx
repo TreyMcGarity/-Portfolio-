@@ -7,15 +7,24 @@ import '../sass/Media.scss';
 const Media = () => {
   return (
     <div className="social-links hover">
-        <a href="https://github.com/TreyMcGarity">
-            <img className="link github fade" src={Github} alt="github" />
-        </a>
-        <a href="https://www.linkedin.com/in/trey-mcgarity-3a0079196/">
-            <img className="link linkedin fade" src={LinkedIn} alt="linkedin" />
-        </a>
-        <a href="https://www.facebook.com/profile.php?id=100004535505847">
-            <img className="link facebook fade" src={Facebook} alt="facebook" />
-        </a>
+      <a href="https://github.com/TreyMcGarity">
+        <img 
+          className="link github fade" 
+          src={Github} 
+          alt="github" />
+      </a>
+      <a href="https://www.linkedin.com/in/trey-mcgarity-3a0079196/">
+        <img 
+          className="link linkedin fade" 
+          src={LinkedIn} 
+          alt="linkedin" />
+      </a>
+      <a href="https://www.facebook.com/profile.php?id=100004535505847">
+        <img 
+          className="link facebook fade" 
+          src={Facebook} 
+          alt="facebook" />
+      </a>
     </div>
   );
 }

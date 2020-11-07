@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Corben:wght@700&display=swap');
 /*
 Want words to be larger or cards to have different style that makes
 presentation neater perhaps.
@@ -5,13 +6,19 @@ Shape: Triangles?? (idk lmao)
 */
 .card {
     width: 25rem;
-    height: 10rem;
+    height: 15rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
     margin: 1rem;
-    background-color: peru;
+    text-align: center;
+    font-family: 'Corben', cursive;
+    background-color:#5D6D7E;
     border: 1px solid black;
     border-radius: .5rem;
+}
+
+.card:hover {
+    color: #301934;
+    box-shadow: 1px 1px 50px #999;
 }

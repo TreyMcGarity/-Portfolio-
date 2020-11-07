@@ -9,8 +9,8 @@ const About = () => {
       <div className="left">
         <img className="pic" src={Picture} alt="my-portrait" />
         <a href={Resume}>Resume</a>
-        <h4>(256) 929-3066</h4>
-        <h4>trey.mcgarity99@gmail.com</h4>
+        <h5>(256) 929-3066</h5>
+        <h5>trey.mcgarity99@gmail.com</h5>
       </div>
       <div className="right">
         <p>Growing up in the two-thousands meant being connected with technology everyday. Thus beginning an inseparable bond between my curiosity and computer systems’ development. During my highschool years, I started taking apart computers to learn what was inside and how they operated, but that quickly evolved to the brain of the machine and it never ended.</p>
