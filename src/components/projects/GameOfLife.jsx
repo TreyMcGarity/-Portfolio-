@@ -3,9 +3,9 @@ import Card from '../Card';
 import Module from '../Module';
 import Backdrop from '../Backdrop';
 
-const SmurfVillage = () => {
+const GameOfLife = () => {
     const [show, setShow] = useState(false)
-    const title = "Smurf Village"
+    const title = "Game of Life"
     const slide = {
         first: "",
         second: "",
@@ -16,8 +16,8 @@ const SmurfVillage = () => {
         second: "second",
         third: "third"
     }
-    const deploy_link = "" // need to host
-    const github_link = "https://github.com/TreyMcGarity/Sprint-Challenge-State-Management-Smurfs"
+    const deploy_link = "https://cs-build-week-1-eight.vercel.app/"
+    const github_link = "https://github.com/TreyMcGarity/CS-Build-Week-1"
 
     return (
         <div>
@@ -47,4 +47,4 @@ const SmurfVillage = () => {
         </div>
     )
 }
-export default SmurfVillage;
+export default GameOfLife;

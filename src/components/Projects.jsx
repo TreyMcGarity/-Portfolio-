@@ -1,7 +1,7 @@
 import React from 'react';
 import SaveTheAnimals from './projects/SaveTheAnimals';
 import CoachMe from './projects/CoachMe';
-import SmurfVillage from './projects/SmurfVillage';
+import GameOfLife from './projects/GameOfLife';
 import Bubbles from './projects/Bubbles';
 import '../sass/Projects.scss';
 
@@ -14,7 +14,7 @@ const Projects = () => {
       <div className="projects">
         <SaveTheAnimals />
         <CoachMe />
-        <SmurfVillage />
+        <GameOfLife />
         <Bubbles />
       </div>
     </div>
