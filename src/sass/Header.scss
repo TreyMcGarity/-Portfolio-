@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Supermercado+One&family=Titillium+Web:wght@900&display=swap');
 
 .header {
     display: flex;
@@ -9,7 +9,7 @@
     background: linear-gradient(58deg, rgba(255,255,255,1) 46%, rgba(89,89,89,1) 49%, rgba(205,133,63,1) 49%, rgba(144,0,232,1) 100%);
 
     h1 {
-        font-family: 'Modak', cursive;
+        font-family: 'Dosis'; //felt off here
         font-weight: 100;
     }
 
