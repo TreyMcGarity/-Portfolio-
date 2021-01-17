@@ -8,16 +8,11 @@
     border-bottom: .2rem solid dimgrey;
     background: linear-gradient(58deg, rgba(255,255,255,1) 46%, rgba(89,89,89,1) 49%, rgba(205,133,63,1) 49%, rgba(144,0,232,1) 100%);
 
-    h1 {
-        font-family: 'Dosis'; //felt off here
-        font-weight: 100;
-    }
 
     .tabs {
         display: flex;
         flex-direction: row;
         margin: 4rem 0;
-
         .tab {
             margin: 0 2rem;
             color: grey;
@@ -27,6 +22,35 @@
         .tab:hover{
             color: peru;
             border-left: .1rem solid peru;
+        }
+    }
+
+    .name-links {
+        text-align: center;
+
+        h1 {
+            font-family: 'Dosis'; //felt off here
+            line-height: 25%;
+        }
+
+        .social-links {
+        
+            .link {
+                margin: 1rem 2rem;
+                height: 3rem;
+                width: 3rem;
+                background-color: black;
+                border-radius: 50%;
+            }
+            
+            .link:hover {
+                box-shadow: 5px 5px 5px slategrey;
+            }
+
+            .linkedin {
+                border-radius: 35%;
+            }
+
         }
     }
 }
