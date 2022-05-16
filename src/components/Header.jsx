@@ -21,7 +21,7 @@ const Header = () => {
                         src={Github} 
                         alt="github" />
                     </a>
-                    <a href="https://www.linkedin.com/in/trey-mcgarity-3a0079196/">
+                    <a href="https://www.linkedin.com/in/trey-mcgarity-2a18a8210/">
                         <img 
                         className="link linkedin fade" 
                         src={LinkedIn} 
